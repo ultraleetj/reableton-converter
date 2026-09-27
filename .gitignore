@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+*.adg
+*.als.xml
+scratchpad/
+packaging/*.spec
+*.rpp-bak
+*.RPP-UNDO

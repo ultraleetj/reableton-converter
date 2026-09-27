@@ -1,0 +1,30 @@
+[project]
+name = "rpp-to-als"
+version = "0.1.0"
+description = "Convert REAPER projects (.rpp) to Ableton Live Sets (.als) and back"
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.10"
+dependencies = [
+    "wxPython>=4.2",
+    "mutagen>=1.47",
+]
+
+[project.optional-dependencies]
+# Only needed to build the standalone .exe's -- see packaging/build.sh.
+build = ["pyinstaller>=6.20"]
+
+[project.scripts]
+rpp-to-als = "rpp_to_als.cli:main"
+rpp-to-als-gui = "rpp_to_als.gui:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rpp_to_als*"]
+
+[tool.setuptools.package-data]
+rpp_to_als = ["templates/*.xml", "templates/*.ico"]

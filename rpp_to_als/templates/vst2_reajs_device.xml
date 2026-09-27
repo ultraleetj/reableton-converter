@@ -1,0 +1,3748 @@
+<PluginDevice Id="0">
+								<LomId Value="0" />
+								<LomIdView Value="0" />
+								<IsExpanded Value="false" />
+								<BreakoutIsExpanded Value="false" />
+								<On>
+									<LomId Value="0" />
+									<Manual Value="true" />
+									<AutomationTarget Id="22455">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</On>
+								<ModulationSourceCount Value="0" />
+								<ParametersListWrapper LomId="0" />
+								<Pointee Id="22456" />
+								<LastSelectedTimeableIndex Value="0" />
+								<LastSelectedClipEnvelopeIndex Value="0" />
+								<LastPresetRef>
+									<Value />
+								</LastPresetRef>
+								<LockedScripts />
+								<IsFolded Value="false" />
+								<ShouldShowPresetName Value="true" />
+								<UserName Value="" />
+								<Annotation Value="" />
+								<SourceContext>
+									<Value>
+										<BranchSourceContext Id="0">
+											<OriginalFileRef />
+											<BrowserContentPath Value="query:Everything#reajs" />
+											<LocalFiltersJson Value="" />
+											<PresetRef />
+											<BranchDeviceId Value="device:vst:audiofx:1919249011?n=reajs" />
+										</BranchSourceContext>
+									</Value>
+								</SourceContext>
+								<MpePitchBendUsesTuning Value="true" />
+								<ViewData Value="{}" />
+								<PluginDesc>
+									<VstPluginInfo Id="0">
+										<WinPosX Value="56" />
+										<WinPosY Value="112" />
+										<NumAudioInputs Value="1" />
+										<NumAudioOutputs Value="1" />
+										<IsPlaceholderDevice Value="false" />
+										<Path Value="C:/Program Files/VSTPlugIns/ReaPlugs/reajs.dll" />
+										<PlugName Value="reajs" />
+										<UniqueId Value="1919249011" />
+										<Inputs Value="0" />
+										<Outputs Value="0" />
+										<NumberOfParameters Value="64" />
+										<NumberOfPrograms Value="1" />
+										<Flags Value="1286" />
+										<Preset>
+											<VstPreset Id="0">
+												<OverwriteProtectionNumber Value="3076" />
+												<MpeEnabled Value="0" />
+												<MpeSettings>
+													<ZoneType Value="0" />
+													<FirstNoteChannel Value="1" />
+													<LastNoteChannel Value="15" />
+												</MpeSettings>
+												<ParameterSettings />
+												<IsOn Value="true" />
+												<PowerMacroControlIndex Value="-1" />
+												<PowerMacroMappingRange>
+													<Min Value="64" />
+													<Max Value="127" />
+												</PowerMacroMappingRange>
+												<IsFolded Value="false" />
+												<StoredAllParameters Value="true" />
+												<DeviceLomId Value="0" />
+												<DeviceViewLomId Value="0" />
+												<IsOnLomId Value="0" />
+												<ParametersListWrapperLomId Value="0" />
+												<Type Value="1178747752" />
+												<ProgramCount Value="1" />
+												<ParameterCount Value="64" />
+												<ProgramNumber Value="0" />
+												<Buffer>
+										{{PROCESSOR_STATE_HEX}}
+												</Buffer>
+												<Name Value="" />
+												<PluginVersion Value="1100" />
+												<UniqueId Value="1919249011" />
+												<ByteOrder Value="2" />
+												<PresetRef />
+											</VstPreset>
+										</Preset>
+										<Version Value="1100" />
+										<VstVersion Value="2400" />
+										<IsShellClient Value="false" />
+										<Category Value="1" />
+									</VstPluginInfo>
+								</PluginDesc>
+								<MpeEnabled Value="false" />
+								<MpeSettings>
+									<ZoneType Value="0" />
+									<FirstNoteChannel Value="1" />
+									<LastNoteChannel Value="15" />
+								</MpeSettings>
+								<ParameterList>
+									<PluginFloatParameter Id="0">
+										<ParameterName Value="Parm1" />
+										<ParameterId Value="0" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="0" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22457">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22458">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="1">
+										<ParameterName Value="Parm2" />
+										<ParameterId Value="1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22459">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22460">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="2">
+										<ParameterName Value="Parm3" />
+										<ParameterId Value="2" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="2" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22461">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22462">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="3">
+										<ParameterName Value="Parm4" />
+										<ParameterId Value="3" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="3" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22463">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22464">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="4">
+										<ParameterName Value="Parm5" />
+										<ParameterId Value="4" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="4" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22465">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22466">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="5">
+										<ParameterName Value="Parm6" />
+										<ParameterId Value="5" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="5" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22467">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22468">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="6">
+										<ParameterName Value="Parm7" />
+										<ParameterId Value="6" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="6" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22469">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22470">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="7">
+										<ParameterName Value="Parm8" />
+										<ParameterId Value="7" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="7" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22471">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22472">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="8">
+										<ParameterName Value="Parm9" />
+										<ParameterId Value="8" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="8" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22473">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22474">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="9">
+										<ParameterName Value="Parm10" />
+										<ParameterId Value="9" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="9" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22475">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22476">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="10">
+										<ParameterName Value="Parm11" />
+										<ParameterId Value="10" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="10" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22477">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22478">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="11">
+										<ParameterName Value="Parm12" />
+										<ParameterId Value="11" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="11" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22479">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22480">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="12">
+										<ParameterName Value="Parm13" />
+										<ParameterId Value="12" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="12" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22481">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22482">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="13">
+										<ParameterName Value="Parm14" />
+										<ParameterId Value="13" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="13" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22483">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22484">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="14">
+										<ParameterName Value="Parm15" />
+										<ParameterId Value="14" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="14" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22485">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22486">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="15">
+										<ParameterName Value="Parm16" />
+										<ParameterId Value="15" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="15" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22487">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22488">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="16">
+										<ParameterName Value="Parm17" />
+										<ParameterId Value="16" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="16" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22489">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22490">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="17">
+										<ParameterName Value="Parm18" />
+										<ParameterId Value="17" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="17" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22491">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22492">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="18">
+										<ParameterName Value="Parm19" />
+										<ParameterId Value="18" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="18" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22493">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22494">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="19">
+										<ParameterName Value="Parm20" />
+										<ParameterId Value="19" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="19" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22495">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22496">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="20">
+										<ParameterName Value="Parm21" />
+										<ParameterId Value="20" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="20" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22497">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22498">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="21">
+										<ParameterName Value="Parm22" />
+										<ParameterId Value="21" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="21" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22499">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22500">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="22">
+										<ParameterName Value="Parm23" />
+										<ParameterId Value="22" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="22" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22501">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22502">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="23">
+										<ParameterName Value="Parm24" />
+										<ParameterId Value="23" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="23" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22503">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22504">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="24">
+										<ParameterName Value="Parm25" />
+										<ParameterId Value="24" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="24" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22505">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22506">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="25">
+										<ParameterName Value="Parm26" />
+										<ParameterId Value="25" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="25" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22507">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22508">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="26">
+										<ParameterName Value="Parm27" />
+										<ParameterId Value="26" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="26" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22509">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22510">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="27">
+										<ParameterName Value="Parm28" />
+										<ParameterId Value="27" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="27" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22511">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22512">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="28">
+										<ParameterName Value="Parm29" />
+										<ParameterId Value="28" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="28" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22513">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22514">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="29">
+										<ParameterName Value="Parm30" />
+										<ParameterId Value="29" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="29" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22515">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22516">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="30">
+										<ParameterName Value="Parm31" />
+										<ParameterId Value="30" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="30" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22517">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22518">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="31">
+										<ParameterName Value="Parm32" />
+										<ParameterId Value="31" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="31" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22519">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22520">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="32">
+										<ParameterName Value="Parm33" />
+										<ParameterId Value="32" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="32" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22521">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22522">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="33">
+										<ParameterName Value="Parm34" />
+										<ParameterId Value="33" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="33" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22523">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22524">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="34">
+										<ParameterName Value="Parm35" />
+										<ParameterId Value="34" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="34" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22525">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22526">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="35">
+										<ParameterName Value="Parm36" />
+										<ParameterId Value="35" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="35" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22527">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22528">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="36">
+										<ParameterName Value="Parm37" />
+										<ParameterId Value="36" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="36" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22529">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22530">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="37">
+										<ParameterName Value="Parm38" />
+										<ParameterId Value="37" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="37" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22531">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22532">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="38">
+										<ParameterName Value="Parm39" />
+										<ParameterId Value="38" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="38" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22533">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22534">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="39">
+										<ParameterName Value="Parm40" />
+										<ParameterId Value="39" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="39" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22535">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22536">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="40">
+										<ParameterName Value="Parm41" />
+										<ParameterId Value="40" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="40" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22537">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22538">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="41">
+										<ParameterName Value="Parm42" />
+										<ParameterId Value="41" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="41" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22539">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22540">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="42">
+										<ParameterName Value="Parm43" />
+										<ParameterId Value="42" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="42" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22541">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22542">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="43">
+										<ParameterName Value="Parm44" />
+										<ParameterId Value="43" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="43" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22543">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22544">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="44">
+										<ParameterName Value="Parm45" />
+										<ParameterId Value="44" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="44" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22545">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22546">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="45">
+										<ParameterName Value="Parm46" />
+										<ParameterId Value="45" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="45" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22547">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22548">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="46">
+										<ParameterName Value="Parm47" />
+										<ParameterId Value="46" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="46" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22549">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22550">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="47">
+										<ParameterName Value="Parm48" />
+										<ParameterId Value="47" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="47" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22551">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22552">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="48">
+										<ParameterName Value="Parm49" />
+										<ParameterId Value="48" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="48" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22553">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22554">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="49">
+										<ParameterName Value="Parm50" />
+										<ParameterId Value="49" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="49" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22555">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22556">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="50">
+										<ParameterName Value="Parm51" />
+										<ParameterId Value="50" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="50" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22557">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22558">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="51">
+										<ParameterName Value="Parm52" />
+										<ParameterId Value="51" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="51" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22559">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22560">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="52">
+										<ParameterName Value="Parm53" />
+										<ParameterId Value="52" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="52" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22561">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22562">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="53">
+										<ParameterName Value="Parm54" />
+										<ParameterId Value="53" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="53" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22563">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22564">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="54">
+										<ParameterName Value="Parm55" />
+										<ParameterId Value="54" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="54" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22565">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22566">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="55">
+										<ParameterName Value="Parm56" />
+										<ParameterId Value="55" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="55" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22567">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22568">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="56">
+										<ParameterName Value="Parm57" />
+										<ParameterId Value="56" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="56" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22569">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22570">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="57">
+										<ParameterName Value="Parm58" />
+										<ParameterId Value="57" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="57" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22571">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22572">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="58">
+										<ParameterName Value="Parm59" />
+										<ParameterId Value="58" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="58" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22573">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22574">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="59">
+										<ParameterName Value="Parm60" />
+										<ParameterId Value="59" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="59" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22575">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22576">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="60">
+										<ParameterName Value="Parm61" />
+										<ParameterId Value="60" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="60" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22577">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22578">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="61">
+										<ParameterName Value="Parm62" />
+										<ParameterId Value="61" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="61" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22579">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22580">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="62">
+										<ParameterName Value="Parm63" />
+										<ParameterId Value="62" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="62" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22581">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22582">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="63">
+										<ParameterName Value="Parm64" />
+										<ParameterId Value="63" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="63" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22583">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22584">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="64">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22585">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22586">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="65">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22587">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22588">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="66">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22589">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22590">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="67">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22591">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22592">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="68">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22593">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22594">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="69">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22595">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22596">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="70">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22597">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22598">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="71">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22599">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22600">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="72">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22601">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22602">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="73">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22603">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22604">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="74">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22605">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22606">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="75">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22607">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22608">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="76">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22609">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22610">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="77">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22611">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22612">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="78">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22613">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22614">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="79">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22615">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22616">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="80">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22617">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22618">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="81">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22619">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22620">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="82">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22621">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22622">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="83">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22623">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22624">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="84">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22625">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22626">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="85">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22627">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22628">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="86">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22629">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22630">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="87">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22631">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22632">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="88">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22633">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22634">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="89">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22635">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22636">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="90">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22637">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22638">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="91">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22639">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22640">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="92">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22641">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22642">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="93">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22643">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22644">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="94">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22645">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22646">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="95">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22647">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22648">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="96">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22649">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22650">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="97">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22651">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22652">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="98">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22653">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22654">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="99">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22655">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22656">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="100">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22657">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22658">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="101">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22659">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22660">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="102">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22661">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22662">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="103">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22663">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22664">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="104">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22665">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22666">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="105">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22667">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22668">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="106">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22669">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22670">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="107">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22671">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22672">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="108">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22673">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22674">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="109">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22675">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22676">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="110">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22677">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22678">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="111">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22679">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22680">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="112">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22681">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22682">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="113">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22683">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22684">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="114">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22685">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22686">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="115">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22687">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22688">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="116">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22689">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22690">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="117">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22691">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22692">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="118">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22693">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22694">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="119">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22695">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22696">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="120">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22697">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22698">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="121">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22699">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22700">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="122">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22701">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22702">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="123">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22703">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22704">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="124">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22705">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22706">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="125">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22707">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22708">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="126">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22709">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22710">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+									<PluginFloatParameter Id="127">
+										<ParameterName Value="" />
+										<ParameterId Value="-1" />
+										<ParameterIdFlankBool Value="false" />
+										<VisualIndex Value="1073741823" />
+										<ParameterValue>
+											<LomId Value="0" />
+											<Manual Value="0.1234567687" />
+											<MidiControllerRange>
+												<Min Value="0" />
+												<Max Value="1" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22711">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22712">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</ParameterValue>
+										<LastUserRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastUserRange>
+										<LastInternalRange>
+											<First Value="0" />
+											<Last Value="1" />
+										</LastInternalRange>
+									</PluginFloatParameter>
+								</ParameterList>
+								<AxisX Value="0" />
+								<AxisY Value="0" />
+								<SideChain>
+									<OnOff>
+										<LomId Value="0" />
+										<Manual Value="true" />
+										<AutomationTarget Id="22713">
+											<LockEnvelope Value="0" />
+										</AutomationTarget>
+										<MidiCCOnOffThresholds>
+											<Min Value="64" />
+											<Max Value="127" />
+										</MidiCCOnOffThresholds>
+									</OnOff>
+									<RoutedInput>
+										<Routable>
+											<Target Value="AudioIn/None" />
+											<UpperDisplayString Value="No Output" />
+											<LowerDisplayString Value="" />
+											<MpeSettings>
+												<ZoneType Value="0" />
+												<FirstNoteChannel Value="1" />
+												<LastNoteChannel Value="15" />
+											</MpeSettings>
+											<MpePitchBendUsesTuning Value="true" />
+										</Routable>
+										<Volume>
+											<LomId Value="0" />
+											<Manual Value="1" />
+											<MidiControllerRange>
+												<Min Value="0.0003162277571" />
+												<Max Value="15.8489332" />
+											</MidiControllerRange>
+											<AutomationTarget Id="22714">
+												<LockEnvelope Value="0" />
+											</AutomationTarget>
+											<ModulationTarget Id="22715">
+												<LockEnvelope Value="0" />
+											</ModulationTarget>
+										</Volume>
+									</RoutedInput>
+									<DryWet>
+										<LomId Value="0" />
+										<Manual Value="1" />
+										<MidiControllerRange>
+											<Min Value="0" />
+											<Max Value="1" />
+										</MidiControllerRange>
+										<AutomationTarget Id="22716">
+											<LockEnvelope Value="0" />
+										</AutomationTarget>
+										<ModulationTarget Id="22717">
+											<LockEnvelope Value="0" />
+										</ModulationTarget>
+									</DryWet>
+								</SideChain>
+							</PluginDevice>

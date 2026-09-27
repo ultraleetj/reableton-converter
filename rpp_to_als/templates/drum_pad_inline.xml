@@ -1,0 +1,47 @@
+<DrumBranch Id="{{PAD_ID}}">
+	<LomId Value="0" />
+	<Name>
+		<EffectiveName Value="{{PAD_NAME}}" />
+		<UserName Value="" />
+		<Annotation Value="" />
+		<MemorizedFirstClipName Value="" />
+	</Name>
+	<IsSelected Value="false" />
+	<DeviceChain>
+		<MidiToAudioDeviceChain Id="0">
+			<Devices>{{ORIGINAL_SIMPLER}}</Devices>
+			<SignalModulations />
+		</MidiToAudioDeviceChain>
+	</DeviceChain>
+	<BranchSelectorRange>
+		<Min Value="0" />
+		<Max Value="0" />
+		<CrossfadeMin Value="0" />
+		<CrossfadeMax Value="0" />
+	</BranchSelectorRange>
+	<IsSoloed Value="false" />
+	<SessionViewBranchWidth Value="55" />
+	<IsHighlightedInSessionView Value="false" />
+	<SourceContext>
+		<Value>
+			<BranchSourceContext Id="0">
+				<OriginalFileRef />
+				<BrowserContentPath Value="" />
+				<LocalFiltersJson Value="" />
+				<PresetRef />
+				<BranchDeviceId Value="" />
+			</BranchSourceContext>
+		</Value>
+	</SourceContext>
+	<Color Value="19" />
+	<AutoColored Value="true" />
+	<AutoColorScheme Value="0" />
+	<SoloActivatedInSessionMixer Value="false" />
+	<DevicesListWrapper LomId="0" />
+	{{MIXER_DEVICE}}
+	<BranchInfo>
+		<ReceivingNote Value="{{RECEIVING_NOTE}}" />
+		<SendingNote Value="60" />
+		<ChokeGroup Value="{{CHOKE_GROUP}}" />
+	</BranchInfo>
+</DrumBranch>
