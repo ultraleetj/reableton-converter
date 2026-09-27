@@ -65,7 +65,7 @@ class FxReportDialog(wx.Dialog):
 
 class MainFrame(wx.Frame):
     def __init__(self):
-        super().__init__(None, title="rpp-to-als", size=(720, 560))
+        super().__init__(None, title="ReAbleton", size=(720, 560))
         self._last_output: str | None = None
         self._last_report: list[FxEntry] | None = None
         self._exporting = False
@@ -351,7 +351,7 @@ class MainFrame(wx.Frame):
             # A real decision (the file could be a live REAPER project), so a dialog.
             answer = wx.MessageBox(
                 f"{out_path}\nalready exists. Overwrite it?",
-                "rpp-to-als",
+                "ReAbleton",
                 wx.YES_NO | wx.NO_DEFAULT | wx.ICON_WARNING,
                 self,
             )
@@ -375,11 +375,11 @@ class MainFrame(wx.Frame):
     def _on_open_output_folder(self, evt: wx.CommandEvent) -> None:
         target = self._last_output or self._output_dir_or_none()
         if not target:
-            wx.MessageBox("Nothing exported yet.", "rpp-to-als", wx.ICON_INFORMATION)
+            wx.MessageBox("Nothing exported yet.", "ReAbleton", wx.ICON_INFORMATION)
             return
         folder = target if os.path.isdir(target) else os.path.dirname(target)
         if not os.path.isdir(folder):
-            wx.MessageBox(f"Folder not found:\n{folder}", "rpp-to-als", wx.ICON_INFORMATION)
+            wx.MessageBox(f"Folder not found:\n{folder}", "ReAbleton", wx.ICON_INFORMATION)
             return
         os.startfile(folder)  # noqa: S606 -- Windows-only tool, matches the rest of this codebase
 

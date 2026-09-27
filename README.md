@@ -6,6 +6,8 @@ Convert a REAPER project (`.rpp`) into an Ableton Live Set (`.als`), and back ag
 
 Neither DAW has to be running. The tool reads and writes the project files directly.
 
+**[Download the latest Windows release](https://github.com/ultraleetj/reableton-converter/releases/latest)**
+
 ## How it works
 
 Both formats are text underneath: a `.rpp` is plain text, and a `.als` is gzipped XML. rpp-to-als parses one and writes the other, building every Ableton track from Live's own default templates (read from your install) so Live accepts the result as one of its own.
@@ -14,11 +16,9 @@ In short: you give it a `.rpp`, it gives you an `.als`. Give it an `.als` and yo
 
 ## Two ways to use it
 
-**GUI (recommended for most people):** run `rpp-to-als-gui`, pick a `.rpp` or an `.als`, and hit **Export**. The direction follows the file you picked, and the options relabel themselves to match. When it's done, **FX report...** shows what made it across and what didn't.
+**GUI (recommended for most people):** download the Windows release zip, extract it anywhere, and run `ReAbleton.exe`. No Python required. Pick a `.rpp` or an `.als`, and hit **Export**. The direction follows the file you picked, and the options relabel themselves to match. When it's done, **FX report...** shows what made it across and what didn't.
 
-**CLI:** the same exports from the command line. Useful for batch jobs, or if you'd rather type than click.
-
-Both need Python 3.10+ for now. A standalone Windows `.exe` can be built with `packaging/build.sh`, see below.
+**CLI:** the same exports from the command line, with `rpp-to-als.exe` from the same zip. Useful for batch jobs, or if you'd rather type than click. You can also run everything from source with Python 3.10+ (see Requirements).
 
 ## What converts
 
@@ -55,11 +55,12 @@ After every export you get a list of every FX and device on every track, marked 
 ## Requirements
 
 - Windows. macOS might work; nobody has checked.
-- Python 3.10+ and the packages in `requirements.txt` (`pip install -r requirements.txt`), or `pip install .` to also get the `rpp-to-als` and `rpp-to-als-gui` commands.
+- For the release zip: nothing else, just extract and run.
+- To run from source instead: Python 3.10+ and the packages in `requirements.txt` (`pip install -r requirements.txt`), or `pip install .` to also get the `rpp-to-als` and `rpp-to-als-gui` commands.
 - **Ableton Live 12, any edition, installed on the same machine.** The tool needs Live's own default track templates and doesn't ship copies of them. It finds the standard install location on its own; if yours lives elsewhere, set `ABLETON_CORE_LIBRARY` to your `Core Library` folder. It will tell you loudly if it can't find it.
 - For converted plugins to load, the same plugins must be installed on the Ableton side: Surge XT, ReaPlugs (for ReaJS and ReaDelay), Waves. No plugin, no sound. That part is between you and your plugin folder.
 
-To build the standalone `.exe`: `pip install .[build]`, then `bash packaging/build.sh`. You get `dist/rpp-to-als-cli.exe` and `dist/rpp-to-als-gui.exe`.
+To build the standalone `.exe`: `pip install .[build]`, then `bash packaging/build.sh`. You get `dist/ReAbleton.exe` (GUI) and `dist/rpp-to-als.exe` (CLI).
 
 ## CLI usage
 
@@ -70,7 +71,7 @@ rpp-to-als export song.rpp drums kit.adg        # one RS5k track -> .adg Drum Ra
 rpp-to-als list-tracks song.rpp
 ```
 
-(Without installing, use `python -m rpp_to_als.cli` instead of `rpp-to-als`.)
+(With the release zip, run `rpp-to-als.exe` from the folder you extracted. From source without installing, use `python -m rpp_to_als.cli`.)
 
 `export-project` options (REAPER -> Ableton):
 
@@ -118,6 +119,8 @@ Convierte un proyecto de REAPER (`.rpp`) en un Live Set de Ableton (`.als`), y d
 
 No hace falta tener abierto ninguno de los dos DAW. La herramienta lee y escribe los archivos de proyecto directamente.
 
+**[Descargar la última versión para Windows](https://github.com/ultraleetj/reableton-converter/releases/latest)**
+
 ## Cómo funciona
 
 Los dos formatos son texto por dentro: un `.rpp` es texto plano, y un `.als` es XML comprimido con gzip. rpp-to-als lee uno y escribe el otro, y arma cada pista de Ableton a partir de las plantillas por defecto de Live (leídas de tu instalación), para que Live acepte el resultado como si fuera suyo.
@@ -126,11 +129,9 @@ En pocas palabras: le das un `.rpp`, te devuelve un `.als`. Le das un `.als` y t
 
 ## Dos formas de usarlo
 
-**Interfaz gráfica (recomendada para la mayoría):** ejecuta `rpp-to-als-gui`, elige un `.rpp` o un `.als` y presiona **Export**. La dirección depende del archivo que elegiste, y las opciones cambian de nombre para coincidir. Al terminar, **FX report...** muestra qué pasó y qué no.
+**Interfaz gráfica (recomendada para la mayoría):** descarga el zip de la última versión para Windows, extráelo donde quieras y ejecuta `ReAbleton.exe`. No se necesita Python. Elige un `.rpp` o un `.als` y presiona **Export**. La dirección depende del archivo que elegiste, y las opciones cambian de nombre para coincidir. Al terminar, **FX report...** muestra qué pasó y qué no.
 
-**Línea de comandos:** las mismas exportaciones desde la terminal. Útil para procesar por lotes, o si prefieres escribir antes que hacer clic.
-
-Por ahora las dos formas necesitan Python 3.10+. Se puede generar un `.exe` independiente para Windows con `packaging/build.sh`; los detalles están más abajo.
+**Línea de comandos:** las mismas exportaciones desde la terminal, con `rpp-to-als.exe` del mismo zip. Útil para procesar por lotes, o si prefieres escribir antes que hacer clic. También puedes ejecutar todo desde el código fuente con Python 3.10+ (ver Requisitos).
 
 ## Qué se convierte
 
@@ -167,11 +168,12 @@ Después de cada exportación obtienes una lista de todos los FX y dispositivos 
 ## Requisitos
 
 - Windows. Tal vez funcione en macOS; nadie lo ha probado.
-- Python 3.10+ y los paquetes de `requirements.txt` (`pip install -r requirements.txt`), o `pip install .` para tener además los comandos `rpp-to-als` y `rpp-to-als-gui`.
+- Para el zip de la versión publicada: nada más, solo extraer y ejecutar.
+- Para ejecutarlo desde el código fuente: Python 3.10+ y los paquetes de `requirements.txt` (`pip install -r requirements.txt`), o `pip install .` para tener además los comandos `rpp-to-als` y `rpp-to-als-gui`.
 - **Ableton Live 12, cualquier edición, instalado en la misma computadora.** La herramienta necesita las plantillas de pista por defecto de Live y no incluye copias propias. Encuentra sola la ubicación de instalación estándar; si la tuya está en otro lado, define `ABLETON_CORE_LIBRARY` con la ruta de tu carpeta `Core Library`. Si no la encuentra, te lo va a decir claramente.
 - Para que los plugins convertidos carguen, esos mismos plugins tienen que estar instalados del lado de Ableton: Surge XT, ReaPlugs (para ReaJS y ReaDelay), Waves. Sin plugin no hay sonido. Eso queda entre tú y tu carpeta de plugins.
 
-Para generar el `.exe` independiente: `pip install .[build]` y luego `bash packaging/build.sh`. Obtienes `dist/rpp-to-als-cli.exe` y `dist/rpp-to-als-gui.exe`.
+Para generar el `.exe` independiente: `pip install .[build]` y luego `bash packaging/build.sh`. Obtienes `dist/ReAbleton.exe` (interfaz gráfica) y `dist/rpp-to-als.exe` (línea de comandos).
 
 ## Uso desde línea de comandos
 
@@ -182,7 +184,7 @@ rpp-to-als export song.rpp drums kit.adg        # una pista de RS5k -> preset .a
 rpp-to-als list-tracks song.rpp
 ```
 
-(Sin instalar, usa `python -m rpp_to_als.cli` en lugar de `rpp-to-als`.)
+(Con el zip, ejecuta `rpp-to-als.exe` desde la carpeta donde lo extrajiste. Desde el código fuente sin instalar, usa `python -m rpp_to_als.cli`.)
 
 Opciones de `export-project` (REAPER -> Ableton):
 

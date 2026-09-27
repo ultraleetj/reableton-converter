@@ -3,7 +3,7 @@
 # for both the CLI and the GUI. Run from the repo root:
 #   bash packaging/build.sh
 #
-# Output: dist/rpp-to-als-cli.exe, dist/rpp-to-als-gui.exe
+# Output: dist/rpp-to-als.exe (CLI), dist/ReAbleton.exe (GUI)
 #
 # Why entry-point wrapper scripts (packaging/cli_entry.py, gui_entry.py)
 # instead of pointing PyInstaller straight at rpp_to_als/cli.py or gui.py:
@@ -31,17 +31,17 @@ REPO_ROOT="$(pwd -W 2>/dev/null || pwd)"
 
 rm -rf build dist
 
-python -m PyInstaller --onefile --name rpp-to-als-cli \
+python -m PyInstaller --onefile --name rpp-to-als \
   --paths . \
   --specpath packaging \
   --add-data "$REPO_ROOT/rpp_to_als/templates;rpp_to_als/templates" \
   packaging/cli_entry.py
 
-python -m PyInstaller --onefile --windowed --name rpp-to-als-gui \
+python -m PyInstaller --onefile --windowed --name ReAbleton \
   --paths . \
   --specpath packaging \
   --add-data "$REPO_ROOT/rpp_to_als/templates;rpp_to_als/templates" \
   packaging/gui_entry.py
 
 echo
-echo "Built: dist/rpp-to-als-cli.exe, dist/rpp-to-als-gui.exe"
+echo "Built: dist/rpp-to-als.exe (CLI), dist/ReAbleton.exe (GUI)"
