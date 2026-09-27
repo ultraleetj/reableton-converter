@@ -1,6 +1,6 @@
 # ReAbleton
 
-**REAPER ⇄ Ableton Live project converter.** The command-line tool and Python package are called `rpp-to-als`.
+**REAPER to Ableton Live project converter, both ways.** The command-line tool and Python package are called `rpp-to-als`.
 
 Convert a REAPER project (`.rpp`) into an Ableton Live Set (`.als`), and back again. Main uses: moving a song between DAWs without rebuilding it from scratch, sharing a sketch with an Ableton friend, or finding out exactly which of your plugins won't survive the trip.
 
